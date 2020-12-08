@@ -59,7 +59,7 @@ class AOC_DAY8():
             self.execInstrList.append(currCommand)
 
 
-    def countNopJmpInstr(self):
+    def listNopJmpInstr(self):
         listNopJmpInstrIdx = []
         for i in range(self.numInstr):
             if self.instrArr[i][1] == "jmp" or self.instrArr[i][1] == "nop":
@@ -67,7 +67,7 @@ class AOC_DAY8():
         return listNopJmpInstrIdx
 
     def swapNopJmpLoopPart2(self):
-        listIdx = self.countNopJmpInstr()
+        listIdx = self.listNopJmpInstr()
 
         for i in range(len(listIdx)):
             # print("\n-------------------- Iter %i" % i)
