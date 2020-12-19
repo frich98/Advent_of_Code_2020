@@ -138,7 +138,7 @@ class AOC_DAY11():
         return count
 
     def printAnswer_Part1(self, result):
-        print("Part 1 Answer: Num Occupied Seas --> %i" % result)
+        print("Part 1 Answer: Num Occupied Seats --> %i" % result)
 
     def getAnswer_Part1(self):
         print("\nPart 1 - Calculations Starting Now!")
@@ -272,7 +272,7 @@ class AOC_DAY11():
         return newMtx
 
     def printAnswer_Part2(self, result):
-        print("Part 2 Answer: Num Occupied Seas --> %i\n" % result)
+        print("Part 2 Answer: Num Occupied Seats --> %i\n" % result)
 
     def getAnswer_Part2(self):
         print("\nPart 2 - Calculations Starting Now!")
