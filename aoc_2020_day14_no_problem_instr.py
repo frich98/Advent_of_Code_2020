@@ -156,7 +156,6 @@ class AOC_DAY14:
 				for repl in x_replacements:
 					repl = list(repl)
 					newaddr = list(maskedbits)
-					newaddr
 					for i in range(len(repl)):
 						newaddr[x_positions[i]] = repl[i]
 					newaddrstr = ''
